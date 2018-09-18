@@ -1,0 +1,45 @@
+body{
+    width: 90%;
+    margin: 5%;
+    background: radial-gradient(rgb(237, 178, 22), rgb(180, 107, 0));
+    background-image: url("images/lac.jpg");
+
+}
+
+p{
+	font-size: 1em;
+	font-family: 'Times New Roman',serif, sans-serif;
+	color: #17007c;
+}
+
+a:link{
+    text-decoration: none;
+    font-size: 1em;
+	font-family: 'Times New Roman', serif, sans-serif;
+    color: #00a7bd;   
+}
+
+a:hover{
+
+font-size: 0.95em
+
+}
+
+a:visited{
+color: #5a0383
+}
+
+blockquote{
+    width: 50%;
+    margin: 25%;
+    margin-top:80px;
+    margin-bottom: 80px;
+    font-size: 1.6em;
+    background-color: rgba(172, 172, 172, 0.527);
+    border-style: solid;
+    border-width: 3px;
+    border-color: #9c3100;
+    padding: 30px;
+    outline-width: 80px;
+
+}
