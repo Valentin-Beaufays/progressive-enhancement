@@ -1,5 +1,6 @@
 body{
     width: 90%;
+    font-family: 'Open sans', sans-serif;
     margin: 5%;
     background: radial-gradient(rgb(237, 178, 22), rgb(180, 107, 0));
     background-image: url("images/lac.jpg");
@@ -12,14 +13,12 @@ body{
 
 p{
 	font-size: 1em;
-	font-family: 'Times New Roman',serif, sans-serif;
 	color: #17007c;
 }
 
 a:link{
     text-decoration: none;
     font-size: 1em;
-	font-family: 'Times New Roman', serif, sans-serif;
     color: #00a7bd;   
 }
 
@@ -77,7 +76,7 @@ header h1{
 
 #cat{
     
-    width: 28%;
+    width: 420px;
     background-image: url(images/cat.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -87,7 +86,7 @@ header h1{
 
 #down{
     
-    width: 28%;
+    width: 420px;
     background-image: url(images/down.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -98,7 +97,7 @@ header h1{
 
 #up{
     
-    width: 28%;
+    width: 420px;
     background-image: url(images/up.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -109,4 +108,8 @@ header h1{
 
 p.rocherMars{
     font-weight: bold;
+}
+
+img{
+    float: right;
 }
