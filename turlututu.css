@@ -1,8 +1,37 @@
-body{
-    width: 90%;
+html, body{
+    margin:0;
+    padding:0;
+
+  }
+  
+
+.blackBackground{
+    background-color: rgb(44, 44, 44);
     text-align: center;
 }
 
-header{
-    background-color: #2a2a2a;
+.blueBackground{
+    background-color: #1E93CC;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+ul.navbar{
+    display:inline-block;
+    margin-right: 45%;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar li{
+    display: inline;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+#login{
+    display:inline;
+    padding: 10px;
 }
